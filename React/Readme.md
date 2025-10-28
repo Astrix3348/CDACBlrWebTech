@@ -1,4 +1,4 @@
-#React Training
+# React Training
 ### What is React?
 React is a JS library for building fast, interactive UI using Resuable components. Developed by Facebook and is widely used for creating Single Page Applications and dynamic web apps. 
 
@@ -43,3 +43,4 @@ npm create vite@latest Sample-app --template react
 npm install
 npm run dev
 ```
+
