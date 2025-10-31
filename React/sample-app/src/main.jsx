@@ -3,8 +3,17 @@ import { createRoot } from 'react-dom/client'
 import './index.css'
 import App from './App.jsx'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
+import '../node_modules/fontawesome-free/css/all.min.css'
+import { Provider } from 'react-redux'
+import { store } from './Components/ReduxExample/store.jsx'
+import { employeeStore } from './Components/ReduxEmployeesExample/employeeStore.jsx'
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <App />
+    {/* <Provider store={employeeStore}> */}
+    <Provider store={employeeStore}>
+
+      <App />
+    </Provider>
   </StrictMode>,
 )
